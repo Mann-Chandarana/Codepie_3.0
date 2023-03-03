@@ -80,12 +80,11 @@ h4 {
 
 /* navigation Bar */
 .navbar {
-    padding: 0 0 4.5rem;
+    padding: 0 0;
 }
 
 .navbar-brand {
     font-size: 3rem;
-    /* font-weight: bold; */
     font-family: 'Dangrek', cursive;
 }
 
@@ -208,6 +207,11 @@ i {
 /* CTA Section */
 
 /* Footer Section */
+.foot{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
 .contact {
     color: #5f5f5f;
 }
