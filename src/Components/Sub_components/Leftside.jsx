@@ -7,9 +7,9 @@ export const Leftside = () => {
                 <div className="col-lg-6">
                     <h1 className="big-title">A Competitive Programming Contest</h1>
                     <br />
-                    <h3>Date: Friday, <span className="spanl">Oct 14</span> 2022 <br />
+                    <h3>Date: Friday, <span className="spanl">March 24</span> 2023 <br />
                         Time : <span className="spanl"> 10 AM to 1 PM</span><br />
-                        Registration deadline: <span className="spanl">Oct 9 2022, 11:59 PM </span>
+                        Registration deadline: <span className="spanl">March 20 2023, 11:59 PM </span>
                         <br />
                         Venue: CSPIT and Depstar Labs, Charusat
                     </h3>
@@ -18,7 +18,7 @@ export const Leftside = () => {
                 </div>
 
                 <div className="col-lg-6">
-                    <img className="title-image" src="./img/CodePie_SVG.svg" alt="iphone-mockup" />
+                    <img className="title-image" src="./img/codepie3.0/Photo.jpg" alt="iphone-mockup" />
                 </div>
             </div>
             <h3 className="registered">

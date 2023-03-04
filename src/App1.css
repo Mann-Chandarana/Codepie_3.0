@@ -38,10 +38,11 @@ h4 {
 
 .container-fluid {
     padding: 7% 15%;
+    /* margin-top: -3rem; */
 }
 
 .colored-section {
-    background-color: #242424;
+    background-color: #030343;
     color: #fff;
 }
 
@@ -57,10 +58,12 @@ h4 {
 }
 
 .title-image {
-    width: 60%;
+    width: 90%;
     transform: rotate(0deg);
     position: absolute;
-    right: 5%;
+    left: 20%;
+    top: 5%;
+    height: 90%;
 }
 
 /* buttons */
@@ -79,8 +82,15 @@ h4 {
   } */
 
 /* navigation Bar */
+.logo-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
 .navbar {
-    padding: 0 0;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    padding-bottom: 15px;
 }
 
 .navbar-brand {
@@ -123,9 +133,6 @@ h4 {
 }
 
 /* Testimonials Section */
-#testimonials {
-    background-color: #242424;
-}
 
 .testimonial-text {
     font-size: 3rem;

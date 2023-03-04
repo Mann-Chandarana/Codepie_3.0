@@ -3,7 +3,7 @@ import React from "react";
 const Navbar1 = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark mb-5 pt-3">
-            <a className="navbar-brand mx-5" href="#">Codepie 3.0</a>
+            <a className="navbar-brand mx-5" href="#">Code<font style={{color:"orange"}}>pie</font> 3.0</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
