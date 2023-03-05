@@ -1,0 +1,308 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h6 {
+    font-weight: bold;
+}
+
+p,
+h5,
+h4 {
+    color: #8f8f8f;
+}
+
+.big-title {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.desc-l {
+    line-height: 1.5;
+    color: #242424a9;
+}
+
+/* container section */
+
+.container-fluid {
+    padding: 7% 15%;
+    /* margin-top: -3rem; */
+}
+
+.colored-section {
+    background-color: rgba(70, 120, 199, 0.7);
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Title section */
+
+#title .container-fluid {
+    text-align: left;
+    padding-top: 3%;
+}
+
+.title-image {
+    width: 90%;
+    transform: rotate(0deg);
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    height: 90%;
+}
+
+/* buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+    padding: 0.8rem 2rem;
+
+}
+
+/* .download-button a{
+    text-decoration: none;
+  }
+  
+  .download-button:hover{
+    color: #242424;
+  } */
+
+/* navigation Bar */
+.logo-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar {
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(0,0,0,-0.7));
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-family: 'Dangrek', cursive;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(40, 35, 35);
+}
+
+/* Features Section */
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+/* icons */
+.icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.img-gallery {
+    width: 50rem;
+    background-color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+#press {
+    background-color: #2e2524;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.photo-section{
+   background-color: rgba(70, 120, 199, 0.7); 
+}
+/* Pricing Section */
+.img-third {
+    max-width: 320px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.rules-t {
+    text-align: left;
+    color: #fff;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    line-height: 2.5;
+}
+
+.rules-section {
+    background: rgba(70, 120, 199, 0.7);
+}
+
+h3 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.spanl {
+    color: #ff0026;
+}
+
+i {
+    width: 5rem;
+    color: black;
+}
+
+.p-desc {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0%;
+}
+
+/* CTA Section */
+
+/* Footer Section */
+.foot{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    color: #5f5f5f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
+
+.footer-section {
+    background: linear-gradient(rgba(0,0,0,-0.7),rgba(70, 120, 199, 0.7));
+}
+.sf {
+    max-width: 250px;
+}
+
+.wa {
+    color: #242424;
+    text-decoration: none;
+}
+
+.wa :hover {
+    color: beige;
+}
+
+@media (max-width: 1085px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        display: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .lap {
+        display: none;
+    }
+
+    .img-gallery {
+        max-width: 505px;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .godlike {
+        height: 3rem;
+    }
+
+    .pricing-img {
+        width: 200px;
+    }
+
+    .watch {
+        width: 190px;
+    }
+}
+
+@media (min-width: 1085px) {
+    .mobile {
+        display: none;
+    }
+}
+
+.registered {
+    display: flex;
+    flex-direction: row;
+}
+
+.register_count {
+    font-size: 1.5rem;
+    color: #4285F4;
+}
